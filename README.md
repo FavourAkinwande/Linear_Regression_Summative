@@ -29,7 +29,7 @@ Example
 Here’s a brief example of how to define the models and evaluate their performance:
 
 python
-Copy code
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -38,16 +38,15 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error
 
-# Sample data
+
 X = np.array([...])  # Input features
 Y = np.array([...])  # Output values
 
-# Preprocess and split data
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
 
-# Train models
-# Linear Regression, Random Forest, Decision Tree code here...
+Train models
+Linear Regression, Random Forest, Decision Tree code here...
 
-# Evaluate and print RMSE
+Evaluate and print RMSE
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
